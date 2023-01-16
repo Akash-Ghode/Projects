@@ -1,9 +1,9 @@
-# theWorkAssignment
+# The Work Assignment
 > this is an assignment of html, css, bootstrap given by the Works company.
 
 
 
-> Live demo [_here_](https://theworks-assignment.netlify.app/). 
+> Live demo [https://the-works-test.netlify.app/). 
 
 ## Table of Contents
 * [General Info](#general-information)
