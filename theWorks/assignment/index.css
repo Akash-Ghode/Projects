@@ -1,0 +1,322 @@
+
+img{
+    width: 50px;
+    padding-top: 8px;
+}
+.innerContainer{  
+    margin :auto;
+    margin-top:0px ;
+    background-color:#fea0a9;
+    width: 50%;
+    height: fit-content;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 5fr; */
+    box-shadow: 1px 1px 3px 3px rgb(182, 180, 180);
+    padding: 20px 20px;
+    color: rgba(23, 23, 122, 0.828);
+}
+p{
+    padding: 1px;
+    margin: 2px;
+}
+
+
+.detailSection > div > div:first-child {
+    padding: 10px;  
+    text-align: center;
+}
+
+.detailSection > div {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+    display: grid;
+    grid-template-columns: 1fr 5fr   ;
+    align-items: center;
+   
+}
+
+
+.profileDisc{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #2a2a63;
+}
+.profileDiscLeft{
+     margin: auto;
+    width:50%;
+    padding: 0 10px;
+    text-align: start;
+}
+.profileDiscLeft > div > h1 {
+    margin-bottom: 0;
+    /* font-size: 25px; */
+   
+}
+
+.profileDisc p {
+    font-size: smaller;
+    
+}
+.profileDiscRight{
+    border-left: 2px solid #2a2a63;
+    width: 50%;
+    
+    padding: 20px;
+    text-align: start;
+    
+}
+.profileDiscRight > div > p {
+    font-size: smaller;
+}
+.workDisc {
+    /* border-bottom: 2px solid rgba(3, 3, 162, 0.77) ; */
+    font-size: smaller;
+}
+
+.workDisc > div {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding:10px 10px;
+}
+
+.skillsDisc{
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+    text-align: start;
+    border-bottom: 2px solid #2a2a63;
+    border-top: 2px solid #2a2a63;
+    
+}
+.skillsDiscLeft{
+    display: grid;
+    grid-template-columns: 2.5fr 3.5fr;
+    width: 50%;
+    padding: 15px 10px;
+    
+}
+.skillsDiscRight{
+    width: 50%;
+    border-left:2px solid #2a2a63 ;
+    padding: 15px 10px;
+}
+/* .skillsDisc p {
+    font-size: small;
+} */
+.skillsDiscRight > div{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    
+    
+}
+.skillsDisc div p svg{
+    width: 10px;
+    height:10px;
+
+   
+}
+
+.interestDisc{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #2a2a63;
+}
+.interestDisc > div {
+    padding: 10px 10px ;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.interestsvg{
+    width: 60px;
+    height: 60px;
+    padding: 0 5px;
+    margin: 0;
+
+}
+
+.image{
+    width: 60px;
+    height: 60px;
+    padding:0px 15px;
+    /* padding-bottom: 10px; */
+}
+.educationDisc > div {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 10px;
+}
+.educationDisc > div > div > p {
+   font-size: medium;
+}
+
+@media screen  and (min-width:600px  ) and (max-width:1000px){
+
+    .innerContainer{  
+       
+        width: 80%;
+        
+    }
+    p{
+        margin: 2px;
+    }
+     
+    
+}
+    
+
+@media screen  and (max-width:600px  ){
+
+    body {
+        padding: 0px 0px;
+        background-color:#fea0a9;
+    }
+    
+    .innerContainer{  
+        width: 100%; 
+        overflow:hidden;
+        padding: 10px 10px;
+       box-shadow: none;
+       margin: 0px;
+    }
+    /* p{
+        margin: 2px;
+    } */
+    
+    .detailSection > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-bottom: 2px solid #2a2a63;
+    }
+    .detailSection > div > div:first-child {
+        padding: 10px;  
+        text-align: center;
+    }
+    .detailSection > div > div:first-child > p {
+      font-size: larger;
+      
+    }
+    
+    .profileDisc{
+        display: block;
+        border: none;
+        
+    }
+    .profileDiscLeft{
+       
+        text-align: start;
+    }
+    .profileDiscLeft > div > h1 {
+        margin-bottom: 0;
+        /* font-size: 25px; */
+       
+    }
+    
+    .profileDisc p {
+        font-size: larger;
+        
+    }
+    .profileDiscRight{
+        border-left:none;
+        width: 100%;
+        
+        padding: 20px;
+        text-align: start;
+        border: none;
+        
+    }
+    .profileDiscRight > div > p {
+        font-size: larger;
+        padding-right:10px;
+
+    }
+    .workDisc {
+        font-size: larger;
+        /* border-bottom: 2px solid rgba(23, 23, 122, 0.828); */
+    }
+    
+    .workDisc > div {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        padding:10px 10px;
+    }
+    
+    .skillsDisc{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: larger;
+        text-align: start;    
+        border: none;
+
+    }
+    .skillsDiscLeft{
+        display: grid;
+        grid-template-columns: 2.5fr 3.5fr;
+        
+        width: 100%;
+        padding: 15px 10px;
+        border-bottom: 3px dashed #2a2a63;
+        
+    }
+    .skillsDiscRight{
+        width: 100%;
+        border:none ;
+        padding: 15px 10px;
+
+
+
+    }
+    .skillsDiscRight > div {
+        display: flex;
+        flex-direction: column;
+        border-left:none;
+        
+        
+        
+    }
+    .skillsDisc div p svg{
+        width: 10px;
+        height:10px; 
+    }
+    
+    .interestDisc{
+        display: flex;
+        justify-content: center;
+        border: none;
+       
+    }
+    .interestDisc > div {
+        padding: 10px 10px ;
+        text-align: center;
+        /* border: none; */
+        
+    }
+    
+    .interestsvg{
+        width: 50px;
+        height: 50px;
+       
+    
+    }
+    
+    .image{
+        width: 50px;
+        height: 50px;
+        
+    }
+    .educationDisc > div {
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .educationDisc > div > div > p {
+       font-size: larger;
+    }
+    
+    
+    
+}
+    
